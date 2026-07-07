@@ -1,0 +1,42 @@
+{
+  "identifier": "batchdye",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_askToBuyEnabled": false
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21500000",
+      "localizations": [],
+      "name": "BatchDye Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "batchdye_pro_monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Calculate soda ash and dye ratios by fabric weight.",
+              "displayName": "BatchDye Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "batchdye_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "BatchDye Pro Monthly",
+          "subscriptionGroupID": "21500000",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
