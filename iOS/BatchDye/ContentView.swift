@@ -174,9 +174,9 @@ struct SessionFormView: View {
     private func save() {
         switch mode {
         case .add:
-            store.addSession(draftItemName, draftFoldPattern, draftColors, draftFabricPrep, isPro: purchases.isPro)
+            store.addSession(itemName: draftItemName, foldPattern: draftFoldPattern, colors: draftColors, fabricPrep: draftFabricPrep, isPro: purchases.isPro)
         case .edit(let item):
-            store.updateSession(item.id, draftItemName, draftFoldPattern, draftColors, draftFabricPrep)
+            store.updateSession(item.id, itemName: draftItemName, foldPattern: draftFoldPattern, colors: draftColors, fabricPrep: draftFabricPrep)
         }
         BDHaptics.success()
         dismiss()
